@@ -21,6 +21,9 @@ class SignIn extends React.Component{
         }
   
     }
+    componentWillUnmount(){
+        window.location.reload();
+    }
 
     render(){
     
